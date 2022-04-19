@@ -6,7 +6,7 @@
 
 - Only the variables declared with `var` keyword are hoisted and generic `functions` declarations are hoisted.
 
-- Neither `let` nor `const` are hoisted although they operates in `temporal dead zone` and since they are mostly initialized not declared.
+- `let` and `const` are hoisted in `temporal dead zone` . Temporal Dead Zone is the time between the variables are declared with the `let` or `const` keywords and get initialized although we need to initialized the variables created with `const` keyword at the time of declaration only. Otherwise it'll thrown a `SyntaxError`
 
 <br>
 
